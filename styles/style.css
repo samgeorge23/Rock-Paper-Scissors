@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Play&display=swap');
+
+
+body{
+    margin:0;
+}
+
+.game{
+    height:100vh;
+    background-color:#65451F;
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+}
+
+.title-text{
+    font-size:100px;
+    font-family: 'Creepster', system-ui;
+    text-align:center;
+    color:#EAC696;
+    margin-bottom:110px;
+    
+}
+
+.character-text{
+    font-size:50px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    color:#C8AE7D;
+}
+
+.top-cloud{
+    position:absolute;
+    top:5px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    right:100px;
+    top:70px;
+}
+.characters{
+    margin-top:30px;
+    display:flex;
+    justify-content:space-around;
+}
+.circle{
+    background-color:#65451F;
+    height:483px;
+    width:528px;
+    border-radius:50%;
+    box-sizing:border-box;
+    border: 40px solid #EAC696;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.redirect{
+    width:350px;
+}
+
+.char{
+    width:100%;
+}
+
+.circle:hover{
+    background-color:#624c32;
+}
+
